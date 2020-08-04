@@ -13,18 +13,18 @@
 		8717B90524CD1D0100C6710A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8717B90324CD1D0100C6710A /* Main.storyboard */; };
 		8717B90724CD1D0300C6710A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8717B90624CD1D0300C6710A /* Assets.xcassets */; };
 		8717B90A24CD1D0300C6710A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8717B90824CD1D0300C6710A /* LaunchScreen.storyboard */; };
-		8717B91324CD1D5500C6710A /* KissUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8717B91224CD1D5500C6710A /* KissUI.framework */; };
-		8717B91424CD1D5500C6710A /* KissUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8717B91224CD1D5500C6710A /* KissUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		87C7E7F824D998A800BA7B28 /* UIBuilder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87C7E7F724D998A800BA7B28 /* UIBuilder.framework */; };
+		87C7E7F924D998A800BA7B28 /* UIBuilder.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 87C7E7F724D998A800BA7B28 /* UIBuilder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8717B91524CD1D5500C6710A /* Embed Frameworks */ = {
+		87C7E7FA24D998A800BA7B28 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8717B91424CD1D5500C6710A /* KissUI.framework in Embed Frameworks */,
+				87C7E7F924D998A800BA7B28 /* UIBuilder.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +41,7 @@
 		8717B90924CD1D0300C6710A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8717B90B24CD1D0300C6710A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8717B91224CD1D5500C6710A /* KissUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KissUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C7E7F724D998A800BA7B28 /* UIBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8717B91324CD1D5500C6710A /* KissUI.framework in Frameworks */,
+				87C7E7F824D998A800BA7B28 /* UIBuilder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +90,7 @@
 		8717B91124CD1D5500C6710A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87C7E7F724D998A800BA7B28 /* UIBuilder.framework */,
 				8717B91224CD1D5500C6710A /* KissUI.framework */,
 			);
 			name = Frameworks;
@@ -104,7 +106,7 @@
 				8717B8F624CD1D0100C6710A /* Sources */,
 				8717B8F724CD1D0100C6710A /* Frameworks */,
 				8717B8F824CD1D0100C6710A /* Resources */,
-				8717B91524CD1D5500C6710A /* Embed Frameworks */,
+				87C7E7FA24D998A800BA7B28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
