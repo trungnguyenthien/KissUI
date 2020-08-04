@@ -9,20 +9,20 @@
 /* Begin PBXBuildFile section */
 		8717B8EB24CD1CEF00C6710A /* KissUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8717B8E924CD1CEF00C6710A /* KissUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8717B91C24CD1E3300C6710A /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91724CD1E3300C6710A /* IconLabel.swift */; };
-		8717B91D24CD1E3300C6710A /* KissLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91824CD1E3300C6710A /* KissLabel.swift */; };
-		8717B91E24CD1E3300C6710A /* KissTextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91924CD1E3300C6710A /* KissTextBuilder.swift */; };
-		8717B91F24CD1E3300C6710A /* KissTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91A24CD1E3300C6710A /* KissTextView.swift */; };
+		8717B91D24CD1E3300C6710A /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91824CD1E3300C6710A /* Label.swift */; };
+		8717B91E24CD1E3300C6710A /* TextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91924CD1E3300C6710A /* TextBuilder.swift */; };
+		8717B91F24CD1E3300C6710A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91A24CD1E3300C6710A /* TextView.swift */; };
 		8717B92024CD1E3300C6710A /* UIView+Decor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717B91B24CD1E3300C6710A /* UIView+Decor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8717B8E624CD1CEF00C6710A /* KissUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KissUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8717B8E624CD1CEF00C6710A /* UIBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8717B8E924CD1CEF00C6710A /* KissUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KissUI.h; sourceTree = "<group>"; };
 		8717B8EA24CD1CEF00C6710A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8717B91724CD1E3300C6710A /* IconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
-		8717B91824CD1E3300C6710A /* KissLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KissLabel.swift; sourceTree = "<group>"; };
-		8717B91924CD1E3300C6710A /* KissTextBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KissTextBuilder.swift; sourceTree = "<group>"; };
-		8717B91A24CD1E3300C6710A /* KissTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KissTextView.swift; sourceTree = "<group>"; };
+		8717B91824CD1E3300C6710A /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		8717B91924CD1E3300C6710A /* TextBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBuilder.swift; sourceTree = "<group>"; };
+		8717B91A24CD1E3300C6710A /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		8717B91B24CD1E3300C6710A /* UIView+Decor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Decor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,7 +40,7 @@
 		8717B8DC24CD1CEF00C6710A = {
 			isa = PBXGroup;
 			children = (
-				8717B8E824CD1CEF00C6710A /* KissUI */,
+				8717B8E824CD1CEF00C6710A /* Source */,
 				8717B8E724CD1CEF00C6710A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,28 +48,28 @@
 		8717B8E724CD1CEF00C6710A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8717B8E624CD1CEF00C6710A /* KissUI.framework */,
+				8717B8E624CD1CEF00C6710A /* UIBuilder.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8717B8E824CD1CEF00C6710A /* KissUI */ = {
+		8717B8E824CD1CEF00C6710A /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				8717B91624CD1E3300C6710A /* builder */,
 				8717B8E924CD1CEF00C6710A /* KissUI.h */,
 				8717B8EA24CD1CEF00C6710A /* Info.plist */,
 			);
-			path = KissUI;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		8717B91624CD1E3300C6710A /* builder */ = {
 			isa = PBXGroup;
 			children = (
 				8717B91724CD1E3300C6710A /* IconLabel.swift */,
-				8717B91824CD1E3300C6710A /* KissLabel.swift */,
-				8717B91924CD1E3300C6710A /* KissTextBuilder.swift */,
-				8717B91A24CD1E3300C6710A /* KissTextView.swift */,
+				8717B91824CD1E3300C6710A /* Label.swift */,
+				8717B91924CD1E3300C6710A /* TextBuilder.swift */,
+				8717B91A24CD1E3300C6710A /* TextView.swift */,
 				8717B91B24CD1E3300C6710A /* UIView+Decor.swift */,
 			);
 			path = builder;
@@ -89,9 +89,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8717B8E524CD1CEF00C6710A /* KissUI */ = {
+		8717B8E524CD1CEF00C6710A /* UIBuilder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8717B8EE24CD1CEF00C6710A /* Build configuration list for PBXNativeTarget "KissUI" */;
+			buildConfigurationList = 8717B8EE24CD1CEF00C6710A /* Build configuration list for PBXNativeTarget "UIBuilder" */;
 			buildPhases = (
 				8717B8E124CD1CEF00C6710A /* Headers */,
 				8717B8E224CD1CEF00C6710A /* Sources */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = KissUI;
+			name = UIBuilder;
 			productName = KissUI;
-			productReference = 8717B8E624CD1CEF00C6710A /* KissUI.framework */;
+			productReference = 8717B8E624CD1CEF00C6710A /* UIBuilder.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8717B8E024CD1CEF00C6710A /* Build configuration list for PBXProject "KissUI" */;
+			buildConfigurationList = 8717B8E024CD1CEF00C6710A /* Build configuration list for PBXProject "UIBuilder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8717B8E524CD1CEF00C6710A /* KissUI */,
+				8717B8E524CD1CEF00C6710A /* UIBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -154,11 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8717B91D24CD1E3300C6710A /* KissLabel.swift in Sources */,
-				8717B91E24CD1E3300C6710A /* KissTextBuilder.swift in Sources */,
+				8717B91D24CD1E3300C6710A /* Label.swift in Sources */,
+				8717B91E24CD1E3300C6710A /* TextBuilder.swift in Sources */,
 				8717B92024CD1E3300C6710A /* UIView+Decor.swift in Sources */,
 				8717B91C24CD1E3300C6710A /* IconLabel.swift in Sources */,
-				8717B91F24CD1E3300C6710A /* KissTextView.swift in Sources */,
+				8717B91F24CD1E3300C6710A /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8717B8E024CD1CEF00C6710A /* Build configuration list for PBXProject "KissUI" */ = {
+		8717B8E024CD1CEF00C6710A /* Build configuration list for PBXProject "UIBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8717B8EC24CD1CEF00C6710A /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8717B8EE24CD1CEF00C6710A /* Build configuration list for PBXNativeTarget "KissUI" */ = {
+		8717B8EE24CD1CEF00C6710A /* Build configuration list for PBXNativeTarget "UIBuilder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8717B8EF24CD1CEF00C6710A /* Debug */,

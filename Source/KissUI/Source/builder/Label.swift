@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-public class KissLabel: UILabel {
-    var builder = KissTextBuilder()
+public class Label: UILabel {
+    var builder = TextBuilder()
 
     public override var text: String? {
         get {
@@ -24,9 +24,9 @@ public class KissLabel: UILabel {
     }
 }
 
-public extension KissTextBuilder {
-    func label() -> KissLabel {
-        let label = KissLabel()
+public extension TextBuilder {
+    func label() -> Label {
+        let label = Label()
         label.builder = self
         label.numberOfLines = numberOfLines
         return label

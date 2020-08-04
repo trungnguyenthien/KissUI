@@ -1,5 +1,5 @@
 //
-//  KissTextBuilder.swift
+//  TextBuilder.swift
 //  Kiss
 //
 //  Created by Trung on 7/25/20.
@@ -143,7 +143,7 @@ extension UIFont {
     var boldItalic: UIFont { with(traits: [.traitBold, .traitItalic]) }
 }
 
-public struct KissTextBuilder {
+public struct TextBuilder {
     var textColor: UIColor = .black
     var fontSize: CGFloat = 12
     var fontName: String = UIFont.systemFont(ofSize: 1).familyName
@@ -206,7 +206,7 @@ public struct KissTextBuilder {
     }
 }
 
-extension KissTextBuilder: TextDecorable {
+extension TextBuilder: TextDecorable {
     @discardableResult public func style(_ value: TextStyle) -> Self {
         var copy = self
         copy.textStyle = value

@@ -1,5 +1,5 @@
 //
-//  KissTextView.swift
+//  TextView.swift
 //  Kiss
 //
 //  Created by Trung on 7/25/20.
@@ -9,8 +9,8 @@
 import Foundation
 import UIKit
 
-public class KissTextView: UITextView {
-    var builder = KissTextBuilder()
+public class TextView: UITextView {
+    var builder = TextBuilder()
 
     public override var text: String? {
         get {
@@ -22,16 +22,16 @@ public class KissTextView: UITextView {
     }
 }
 
-public extension KissTextBuilder {
-    func textView() -> KissTextView {
-        let textView = KissTextView()
+public extension TextBuilder {
+    func textView() -> TextView {
+        let textView = TextView()
         textView.builder = self
         return textView
     }
 }
 
-public class KissTextField: UITextField {
-    var builder = KissTextBuilder()
+public class TextField: UITextField {
+    var builder = TextBuilder()
 
     public override var text: String? {
         get {
@@ -43,9 +43,9 @@ public class KissTextField: UITextField {
     }
 }
 
-public extension KissTextBuilder {
-    func textField() -> KissTextField {
-        let text = KissTextField()
+public extension TextBuilder {
+    func textField() -> TextField {
+        let text = TextField()
         text.builder = self
 
         return text
