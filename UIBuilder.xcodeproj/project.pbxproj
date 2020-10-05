@@ -288,12 +288,7 @@
 		8717B8EF24CD1CEF00C6710A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					"x86_64-apple-ios-simulator",
-					x86_64,
-					x86,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -322,12 +317,7 @@
 		8717B8F024CD1CEF00C6710A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					"$(ARCHS_STANDARD)",
-					"x86_64-apple-ios-simulator",
-					x86_64,
-					x86,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
