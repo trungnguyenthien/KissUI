@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Sample/Sample/Sample.xcodeproj">
+      location = "group:UIBuilder/UIBuilder.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:UIBuilder.xcodeproj">
+      location = "group:Sample/Sample/Sample.xcodeproj">
    </FileRef>
 </Workspace>
